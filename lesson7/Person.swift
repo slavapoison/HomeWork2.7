@@ -9,6 +9,5 @@ struct Person {
     let name: String
     let lastName: String
     let email: String
-    let tel: String
+    let phone: String
 }
-
