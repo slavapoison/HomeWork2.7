@@ -7,10 +7,10 @@
 
 class DataManager {
     
-    var names = ["John", "Carl", "Edward"]
-    var lastNames = ["Norton", "Pitt", "Di Caprio"]
-    var phones = ["88798838833", "33234223", "55364546"]
-    var emails = ["ttt@tutu.ru", "sss@mail.ru", "ksskka@ya.ru"]
+    var names = ["John", "Carl", "Edward", "Brad", "Tim", "Johm"]
+    var lastNames = ["Norton", "Pitt", "Di Caprio", "Cook", "Edwardson"]
+    var phones = ["8-879-883-8336", "7-77-883-877336", "9-999-883-8996", "8-879-883-8888", "8-839-883-3333"]
+    var emails = ["ttt@tutu.ru", "sss@mail.ru", "ksskka@ya.ru", "ksskkasasda@ya.ru", "qwqeqrrty@ya.ru"]
     
     func getData() -> [Person] {
         
