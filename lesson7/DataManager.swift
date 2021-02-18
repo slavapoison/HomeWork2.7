@@ -22,6 +22,7 @@ class DataManager {
                               email: emails.randomElement() ?? "",
                               phone: phones.randomElement() ?? "")
             persons.append(person)
+            
             names.removeAll(where: { $0 == person.name })
             lastNames.removeAll(where: { $0 == person.lastName })
             phones.removeAll(where: { $0 == person.phone })
