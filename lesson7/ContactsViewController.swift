@@ -9,11 +9,12 @@ import UIKit
 
 class ContactsViewController: UITableViewController {
 
-    var contacts = DataManager().getData()
+    var contacts: [Person]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.rowHeight = 40
+        navigationItem.title = "List"
     }
 
     // MARK: - Table view data source

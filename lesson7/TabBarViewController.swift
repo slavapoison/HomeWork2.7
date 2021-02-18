@@ -13,17 +13,10 @@ class TabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    }
-    // MARK: - Navigation
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let tabBarController = segue.destination as! UITabBarController
-        let sectionVC = tabBarController.viewControllers?.last as! ContactsGroupeTableViewController
-        let navigationVC = tabBarController.viewControllers?.first as! UINavigationController
-        let listVC = navigationVC.topViewController as! ContactsViewController
-        sectionVC.contacts = contacts
+        let listVC = self.viewControllers?.first as! ContactsViewController
         listVC.contacts = contacts
+        
+        let sectionsVC = self.viewControllers?.last as! ContactsGroupeTableViewController
+        sectionsVC.contacts = contacts
     }
-
 }

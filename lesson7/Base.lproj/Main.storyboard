@@ -43,7 +43,7 @@
                             <outlet property="delegate" destination="4Ji-Wq-7Zq" id="XQS-Sv-k7h"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="RIj-2l-dE9"/>
+                    <tabBarItem key="tabBarItem" title="List" image="person.3" catalog="system" id="RIj-2l-dE9"/>
                     <navigationItem key="navigationItem" title="Conracts" id="bHJ-yZ-86D"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PZk-yw-dOG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -95,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rcF-j0-Uj7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2879.7101449275365" y="65.625"/>
+            <point key="canvasLocation" x="2775" y="66"/>
         </scene>
         <!--List-->
         <scene sceneID="iiy-59-khn">
@@ -114,7 +114,7 @@
             </objects>
             <point key="canvasLocation" x="619" y="66"/>
         </scene>
-        <!--Conracts-->
+        <!--Group-->
         <scene sceneID="da0-i8-1gy">
             <objects>
                 <tableViewController storyboardIdentifier="sectionVC" id="3ab-D6-Nqh" customClass="ContactsGroupeTableViewController" customModule="lesson7" customModuleProvider="target" sceneMemberID="viewController">
@@ -147,18 +147,18 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Group" image="person.2.fill" catalog="system" id="h3G-BC-6tI"/>
-                    <navigationItem key="navigationItem" title="Conracts" id="eQJ-fV-CtZ"/>
+                    <navigationItem key="navigationItem" title="Group" id="eQJ-fV-CtZ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Pk-ZR-WM6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2104" y="770"/>
+            <point key="canvasLocation" x="2057" y="757"/>
         </scene>
-        <!--List-->
+        <!--Persons-->
         <scene sceneID="jL8-7D-mUa">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="e95-Yc-i3w" customClass="TabBarViewController" customModule="lesson7" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="List" id="FmN-gC-3kp"/>
+                    <navigationItem key="navigationItem" title="Persons" id="FmN-gC-3kp"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="caQ-aD-BNQ">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
